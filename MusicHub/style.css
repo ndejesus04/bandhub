@@ -1,4 +1,3 @@
-
 /*Top portion the Banner*/
 #Header
 {
@@ -6,31 +5,41 @@
 	color:#FFFFFF;
 	text-align: center;
 	padding: 20px;
-	width: 1000px;
+	width: 97.85%;
 }
 /*left side home, search, upload, and help*/
 #Menu
 {
-	width: 100px;
-	height: 500px;
+	width: 12%;
+	height: 700px;
 	float: left;
 	padding:20px;
-	background-color: #2529a7;
+	background-color: #4C4C4C;
 	color:#FFFFFF;
+	text-align:center;
+	font-size:25px;
 }
-a
+
+a {
+    text-decoration: none;
+}
+a:link, a:visited 
 {
-	color: #FF00FF;
-	cursor: pointer;
+    color: white;
 }
+
+ul, li { list-style: none; margin:10px 0; padding:0 }
+ul li span { display:block; padding:100 }
+ul li span:hover { background:red }
+
 /*The meaty center with all the fun stuff*/
 #Main
 {
 	background-color: #FFFFFF;
-	width:1000px;
+	width:60%;
 	height: 500px;
 	float: left;
-	padding: 20px;
+	padding: 5%;
 }
 /*The bottom part (Duh)*/
 #Footer
@@ -39,7 +48,7 @@ a
 	color:#FFFFFF;
 	text-align: center;
 	padding: 20px;
-	width: 1000px;
+	width: 97.85%;
 	clear: left;
 }
 .MenuSpace
@@ -47,4 +56,7 @@ a
 	padding: 10px;
 	font-family: Comic Sans, Comic Sans MS, cursive;
 }
-
+body
+{
+	background-color:#000000;
+}
